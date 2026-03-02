@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our Products - My Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 50px;
+        }
+        .product-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            width: 280px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .product-card img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .price {
+            color: green;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .buy-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+        .buy-btn:hover {
+            background-color: #45a049;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Our Products</h1>
+    </div>
+    
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    
+    <div class="products">
+        <!-- Product 1 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="Product 1">
+            <h3>Product 1</h3>
+            <p class="price">$29.99</p>
+            <p>Amazing product description</p>
+            <button class="buy-btn">Add to Cart</button>
+        </div>
+        
+        <!-- Product 2 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="Product 2">
+            <h3>Product 2</h3>
+            <p class="price">$39.99</p>
+            <p>High quality item</p>
+            <button class="buy-btn">Add to Cart</button>
+        </div>
+        
+        <!-- Product 3 -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="Product 3">
+            <h3>Product 3</h3>
+            <p class="price">$49.99</p>
+            <p>Best seller!</p>
+            <button class="buy-btn">Add to Cart</button>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>&copy; 2024 My Store. All rights reserved.</p>
+    </div>
+</body>
+</html>
